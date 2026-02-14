@@ -1,0 +1,44 @@
+{
+  "name": "jarvis-vscode",
+  "displayName": "Jarvis AI Assistant",
+  "description": "AI assistant for VS Code with local LLM support",
+  "version": "1.0.0",
+  "publisher": "yksanjo",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "AI",
+    "Productivity"
+  ],
+  "activationEvents": [
+    "onCommand:jarvis.chat",
+    "onCommand:jarvis.task.add",
+    "onCommand:jarvis.task.list"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "jarvis.chat",
+        "title": "Jarvis: Open Chat"
+      },
+      {
+        "command": "jarvis.task.add",
+        "title": "Jarvis: Add Task"
+      },
+      {
+        "command": "jarvis.task.list",
+        "title": "Jarvis: List Tasks"
+      }
+    ],
+    "views": {
+      "sidebar": [
+        {
+          "id": "jarvis-view",
+          "name": "Jarvis"
+        }
+      ]
+    }
+  }
+}
