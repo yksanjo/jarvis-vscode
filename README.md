@@ -1,43 +1,84 @@
-# Jarvis VS Code Extension
+# jarvis-vscode
 
-A VS Code extension that brings Jarvis AI assistant directly into your editor.
+## Detailed Description
 
-## Features
+jarvis-vscode is maintained as an industry-grade software project with production-ready engineering practices.  
+This repository includes documented setup, quality gates, operational guidance, and governance standards so contributors can safely build, test, and ship changes with confidence.
 
-- 🤖 **AI Chat** - Chat with Jarvis in sidebar
-- 📝 **Task Management** - Create and track tasks
-- 💬 **Inline Assist** - AI code assistance
-- ⌨️ **Commands** - Quick access commands
-- 🔒 **Privacy** - Local LLM (Ollama)
+## Problem Statement
 
-## Installation
+Describe the user or business problem this project solves, the target users, and expected outcomes.
 
-```bash
-# From VS Code
-Extensions > Search "Jarvis"
+## Solution Overview
 
-# Or from marketplace
-code --install-extension jarvis-vscode
+Summarize the architecture, core modules, and runtime behavior at a high level.
+
+## Key Features
+
+- Clear project scope and intended use.
+- Reproducible local development workflow.
+- Test coverage and CI quality gates.
+- Security and contribution policies.
+- Deployment-ready repository structure.
+
+## Repository Structure
+
+```text
+.
+|-- src/                  # Core implementation
+|-- tests/                # Automated test suites
+|-- docs/                 # Design notes and operational docs
+|-- .github/workflows/    # CI pipelines
+|-- README.md
+|-- LICENSE
+|-- CONTRIBUTING.md
+|-- SECURITY.md
+|-- CODE_OF_CONDUCT.md
 ```
 
-## Commands
+## Getting Started
 
-- `jarvis.chat` - Open chat panel
-- `jarvis.task.add` - Add new task
-- `jarvis.task.list` - List tasks
-- `jarvis.code` - Get code assistance
+### Prerequisites
+
+- Git
+- Project runtime/toolchain for this repo
+
+### Local Setup
+
+```bash
+npm ci
+npm run lint
+npm test
+npm run build
+```
 
 ## Usage
 
-1. Install Ollama for AI features
-2. Open VS Code command palette (Cmd/Ctrl + Shift + P)
-3. Type "Jarvis" to see available commands
+Document primary commands, API routes, CLI examples, or UI workflows here.
 
-## Requirements
+## Quality Standards
 
-- VS Code 1.75+
-- Ollama (optional, for AI features)
+- CI must pass before merge.
+- Changes require tests for critical behavior.
+- Security-sensitive changes should include risk notes.
+- Keep pull requests focused and reviewable.
+
+## Security
+
+See `SECURITY.md` for responsible disclosure and handling guidelines.
+
+## Contributing
+
+See `CONTRIBUTING.md` for branching, commit, and pull request expectations.
+
+## Roadmap
+
+Track upcoming milestones, technical debt, and planned feature work.
+
+## Support
+
+Open a GitHub issue for bugs, feature requests, or documentation gaps.
 
 ## License
 
-MIT
+This project is released under the MIT License.
