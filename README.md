@@ -1,5 +1,12 @@
 # jarvis-vscode
 
+Production-grade project scaffold focused on reliability, maintainability, and fast onboarding.
+
+[![CI](https://img.shields.io/github/actions/workflow/status/yksanjo/jarvis-vscode/ci.yml?branch=main&label=ci)](https://github.com/yksanjo/jarvis-vscode/actions)
+![License](https://img.shields.io/github/license/yksanjo/jarvis-vscode)
+![Last Commit](https://img.shields.io/github/last-commit/yksanjo/jarvis-vscode)
+![Repo Size](https://img.shields.io/github/repo-size/yksanjo/jarvis-vscode)
+
 ## Detailed Description
 
 jarvis-vscode is maintained as an industry-grade software project with production-ready engineering practices.  
